@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadSuperbowlNamer", "BadSuperbowlNamer\BadSuperbowlNamer.csproj", "{5476EC54-B6A2-4B7A-A31C-8581A1EDCBE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadSuperbowlNamer.Tests", "BadSuperbowlNamer.Tests\BadSuperbowlNamer.Tests.csproj", "{9CF2F7C8-AEC4-4FC1-A960-28BDB6E48A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5476EC54-B6A2-4B7A-A31C-8581A1EDCBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5476EC54-B6A2-4B7A-A31C-8581A1EDCBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5476EC54-B6A2-4B7A-A31C-8581A1EDCBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5476EC54-B6A2-4B7A-A31C-8581A1EDCBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF2F7C8-AEC4-4FC1-A960-28BDB6E48A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF2F7C8-AEC4-4FC1-A960-28BDB6E48A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF2F7C8-AEC4-4FC1-A960-28BDB6E48A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF2F7C8-AEC4-4FC1-A960-28BDB6E48A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A1C57F3-D41C-4DE0-A1F2-7F0A1947AD42}
+	EndGlobalSection
+EndGlobal
