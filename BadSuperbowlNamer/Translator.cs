@@ -12,7 +12,42 @@ namespace BadSuperbowlNamer
             var romanNumeral = "";
             while (number > 0)
             {
-                if (number >= 10)
+                while (number >= 1000)
+                {
+                    romanNumeral += "M";
+                    number -= 1000;
+                }
+                while (number >= 900)
+                {
+                    romanNumeral += "CM";
+                    number -= 900;
+                }
+                while (number >= 500)
+                {
+                    romanNumeral += "D";
+                    number -= 500;
+                }
+                while (number >= 100)
+                {
+                    romanNumeral += "C";
+                    number -= 100;
+                }
+                while (number >= 90)
+                {
+                    romanNumeral += "XC";
+                    number -= 90;
+                }
+                while (number >= 50)
+                {
+                    romanNumeral += "L";
+                    number -= 50;
+                }
+                while (number >= 40)
+                {
+                    romanNumeral += "XL";
+                    number -= 40;
+                }
+                while (number >= 10)
                 {
                     romanNumeral += "X";
                     number -= 10;
